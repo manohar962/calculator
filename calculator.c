@@ -21,7 +21,8 @@ float divide(int i, int j) {
 }
 
 int main() {
-    int a, b;
+    int a, b,;
+    float c;
     char operation;
     char confirm = 'n';
 
@@ -73,8 +74,8 @@ int main() {
                 break;
             case 'i':
                 printf("Enter an integer: ");
-                scanf("%d", &a);
-                printf("Inverse of %d is %d \n",a,1/a);
+                scanf("%f", &c);
+                printf("Inverse of %f is %f \n",c,1/c);
                 break;
             default:
                 printf("Invalid operation. Please try again.\n");
